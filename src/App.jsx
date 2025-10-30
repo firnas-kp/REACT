@@ -24,6 +24,9 @@
 import React, { Component } from 'react'
 import Basic from './class-components/Basic'
 import Counter from './class-components/Counter'
+import Mounting from './class-components/LifeCycleMethods/Mounting'
+import Updating from './class-components/LifeCycleMethods/Updating'
+import UnMounting from './class-components/LifeCycleMethods/UnMounting'
 
 export default class App extends Component {
   render() {
@@ -31,7 +34,10 @@ export default class App extends Component {
       <>
         {/* <Basic /> */}
         {/* <UsingProps name="firnas" />   */}
-        <Counter/>
+        {/* <Counter/> */}
+        {/* <Mounting/> */}
+        {/* <Updating/> */}
+        <UnMounting/>
       </>
     )
   }
