@@ -27,6 +27,7 @@ import Counter from './class-components/Counter'
 import Mounting from './class-components/LifeCycleMethods/Mounting'
 import Updating from './class-components/LifeCycleMethods/Updating'
 import UnMounting from './class-components/LifeCycleMethods/UnMounting'
+import ButtonUnMount from './class-components/LifeCycleMethods/ButtonUnMount'
 
 export default class App extends Component {
   render() {
@@ -37,7 +38,8 @@ export default class App extends Component {
         {/* <Counter/> */}
         {/* <Mounting/> */}
         {/* <Updating/> */}
-        <UnMounting/>
+        {/* <UnMounting/> */}
+        <ButtonUnMount/>
       </>
     )
   }
