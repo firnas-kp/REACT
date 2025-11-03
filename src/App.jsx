@@ -3,6 +3,8 @@ import './App.css'
 // import CallingFunction from './embedding-expression/CallingFunction'
 // import Conditional from './embedding-expression/Conditional'
 import Basic from './functional-components/Basic'
+import Timer from './functional-components/hooks/useEffect-Hook/Timer'
+import UserList from './functional-components/hooks/useEffect-Hook/UserList'
 import Props from './functional-components/Props'
 import State from './functional-components/state'
 
@@ -19,7 +21,11 @@ function App() {
       {/* ------------------functional componants--------------- */}
       {/* <Basic /> */}
       {/* <State/> */}
-      <Props/>
+      {/* <Props/> */}
+
+      {/* ---------Hooks & life cycle methods------- */}
+      {/* <Timer/> */}
+      <UserList/>
 
     </>
   )
