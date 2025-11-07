@@ -46,3 +46,119 @@
   font-weight: bold;
   background-color: chartreuse;
 } */
+/* 
+body { margin: 0; font-family: Arial; }
+ul { list-style: none; margin: 0; padding: 0; }
+a { text-decoration: none; color: inherit; } */
+
+/* Navbar */
+/* .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #1e293b;
+  color: #fff;
+}
+.navbar ul { display: flex; gap: 20px; }
+.navbar a:hover { color: #00b7ff; } */
+
+/* Hero */
+/* .hero {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #e8effa;
+  text-align: center;
+} */
+
+/* Contact */
+/* .contact { padding: 40px; text-align: center; }
+form { display: flex; flex-direction: column; gap: 10px; max-width: 300px; margin: auto; }
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  padding: 10px;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+/* Footer */
+/* .footer {
+  background: #1e293b;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+} */
+
+.container-app { 
+  max-width: 1280px; 
+  margin-left: auto;  
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem; 
+  padding-bottom: 1.5rem;
+}
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 1.875rem; 
+  font-weight: 600;
+  margin-bottom: 1rem; 
+}
+
+.services-subtitle {
+  margin-bottom: 1.5rem;
+}
+
+.services-links {
+  display: flex;
+  gap: 1rem; 
+  margin-bottom: 1.5rem; 
+}
+
+.service-link {
+  padding: 0.5rem 0.75rem; 
+  color: white;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Individual button colors */
+.service-link.web {
+  background-color: #2563eb; 
+}
+.service-link.web:hover {
+  background-color: #1d4ed8; 
+}
+
+.service-link.app {
+  background-color: #16a34a; /* green-600 */
+}
+.service-link.app:hover {
+  background-color: #15803d;
+}
+
+.service-link.design {
+  background-color: #9333ea; /* purple-600 */
+}
+.service-link.design:hover {
+  background-color: #7e22ce; 
+}

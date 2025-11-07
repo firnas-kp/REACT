@@ -1,6 +1,15 @@
-import './App.css'
-import { UserApiProvider } from './functional-components/hooks/useContext-Hook/dark&light-mode/user-list/UserApiContext';
-import UserList from './functional-components/hooks/useContext-Hook/dark&light-mode/user-list/UserList';
+// import { RouterContextProvider } from 'react-router-dom';
+// import { Route, Routes } from 'react-router-dom';
+// import './App.css'
+// import Items from './react-keys/Items';
+import SimpleForm from './form/SimpleForm';
+// import RealWorld from './react-keys/RealWorld';
+// import Navbar from './nested-routing/Navbar';
+// import AddTodo from './functional-components/hooks/useReducer/AddTodo';
+// import TodoContext, { TodoProvider } from './functional-components/hooks/useReducer/TodoContext';
+// import { Children } from 'react';
+// import { UserApiProvider } from './functional-components/hooks/useContext-Hook/dark&light-mode/user-list/UserApiContext';
+// import UserList from './functional-components/hooks/useContext-Hook/dark&light-mode/user-list/UserList';
 // import Home from './functional-components/hooks/useContext-Hook/dark&light-mode/Home';
 // import { ThemeProvider } from './functional-components/hooks/useContext-Hook/dark&light-mode/ThemeContext';
 // import { UserApiProvider } from './functional-components/hooks/useContext-Hook/dark&light-mode/user-list/UserApiContext';
@@ -17,6 +26,26 @@ import UserList from './functional-components/hooks/useContext-Hook/dark&light-m
 // import Props from './functional-components/Props'
 // import State from './functional-components/state'
 // import Example2 from './functional-components/hooks/useEffect-Hook/Example2'
+
+// import About from "./nested-routing/pages/About";
+// import Home from "./nested-routing/pages/Home";
+// import Service from './nested-routing/pages/Service';
+// import Design from './nested-routing/pages/services/Design';
+// import WebDev from './nested-routing/pages/services/WebDev';
+// import AppDev from './nested-routing/pages/services/AppDev';
+
+// import Contact from "./components/Contact";
+// import Footer from "./components/Footer";
+// import Hero from "./components/Hero";
+// import Navbar from "./components/Navbar";
+
+// import { Route, Routes } from "react-router-dom";
+// import Product from "./dynamic-routing/Product";
+// import ProductDetailPage from "./dynamic-routing/ProductDetailPage";
+
+// import { Link, Route, Routes } from "react-router-dom";
+// import Home from "./react-router-dom/Home";
+// import About from "./react-router-dom/About";
 
 function App() {
 
@@ -41,12 +70,67 @@ function App() {
       {/* <ToggleButton/> */}
 
       {/* -----useContext hook----- */}
-      {/* <ThemeProvider>
-      <Home/>
-      </ThemeProvider> */}
-      <UserApiProvider>
+      {/* <ThemeProvider> */}
+      {/* <Home/> */}
+      {/* </ThemeProvider> */}
+      {/* <UserApiProvider>
         <UserList/>
-      </UserApiProvider>
+      </UserApiProvider> */}
+
+      {/* ----todo----
+      <TodoContext>
+        <TodoProvider/>
+      </TodoContext> */}
+      {/* <AddTodo/> */}
+
+      {/* ----------react-router-dom--------- */}
+    {/* 1.-----basic routing---- */}
+      {/* <div>
+        <nav>
+          <Link to='/'>Home</Link><br />
+          <Link to='/about'>About</Link>
+        </nav>
+      </div>
+
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
+      </Routes> */}
+
+    {/* 2. -----dynamic routing----- */}
+    {/* <Routes>
+      <Route path="/" element={<Product/>}/>
+      <Route path="/products/:id" element={<ProductDetailPage/>}/>
+    </Routes> */}
+
+    {/* 3. -----nested routing----- */}
+
+    {/* <Navbar/>
+    <Hero/>
+    <Contact/>
+    <Footer/> */}
+    {/* <Navbar/>
+    <Home/>
+    <About/> */}
+    {/* <Navbar/> 
+    <div className='container-app'>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/> */}
+
+        {/* nested routes can be added here */}
+        {/* <Route path='/service' element={<Service/>}>
+        <Route path='web-development' element={<WebDev/>}/>
+        <Route path='app-development' element={<AppDev/>}/>
+        <Route path='design' element={<Design/>}/>
+        </Route>
+      </Routes>
+    </div> */}
+
+    {/* -------react keys------ */}
+    {/* <Items/> */}
+    {/* <RealWorld/> */}
+    <SimpleForm/>
 
     </>
   );
