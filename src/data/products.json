@@ -1,0 +1,82 @@
+[
+  {
+    "id": "p1",
+    "name": "Smart Watch",
+    "price": 1999,
+    "description": "Fitness tracker + Heart rate monitor",
+    "brand": "Noise",
+    "image": "/images/watch.jpg"
+  },
+  {
+    "id": "p2",
+    "name": "Wireless Earbuds",
+    "price": 1599,
+    "description": "Bluetooth 5.3 + Noise cancellation",
+    "brand": "Boat",
+    "image": "/images/earbuds.jpg"
+  },
+  {
+    "id": "p3",
+    "name": "Running Shoes",
+    "price": 2499,
+    "description": "Comfort foam + Anti-slip grip",
+    "brand": "Puma",
+    "image": "/images/shoes.jpg"
+  },
+  {
+    "id": "p4",
+    "name": "Gaming Keyboard",
+    "price": 1399,
+    "description": "RGB Backlight + Mechanical feel",
+    "brand": "Redgear",
+    "image": "/images/keyboard.jpg"
+  },
+  {
+    "id": "p5",
+    "name": "Laptop Backpack",
+    "price": 899,
+    "description": "Waterproof + 15.6 inch laptop slot",
+    "brand": "Wildcraft",
+    "image": "/images/bag.jpg"
+  },
+  {
+    "id": "p6",
+    "name": "Sunglasses",
+    "price": 599,
+    "description": "UV Protection + Stylish frame",
+    "brand": "Fastrack",
+    "image": "/images/glass.jpg"
+  },
+  {
+    "id": "p7",
+    "name": "T-Shirt",
+    "price": 499,
+    "description": "Cotton + Regular fit",
+    "brand": "Roadster",
+    "image": "/images/tshirt.jpg"
+  },
+  {
+    "id": "p8",
+    "name": "Jeans",
+    "price": 999,
+    "description": "Slim fit + Stretchable denim",
+    "brand": "Levis",
+    "image": "/images/jeans.jpg"
+  },
+  {
+    "id": "p9",
+    "name": "Shirt",
+    "price": 499,
+    "description": "Cotton + Regular fit",
+    "brand": "Allen Solly",
+    "image": "/images/shirt.jpg"
+  },
+  {
+    "id": "p10",
+    "name": "jersy",
+    "price": 399,
+    "description": "Slim fit + Stretchable denim",
+    "brand": "Adidas",
+    "image": "/images/jersy.jpg"
+  }
+]

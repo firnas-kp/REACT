@@ -2,8 +2,9 @@
 // import { Route, Routes } from 'react-router-dom';
 // import './App.css'
 // import Items from './react-keys/Items';
-import SimpleForm from './form/SimpleForm';
+// import SimpleForm from './form/SimpleForm';
 // import RealWorld from './react-keys/RealWorld';
+// import Work from './react-keys/Work';
 // import Navbar from './nested-routing/Navbar';
 // import AddTodo from './functional-components/hooks/useReducer/AddTodo';
 // import TodoContext, { TodoProvider } from './functional-components/hooks/useReducer/TodoContext';
@@ -27,17 +28,17 @@ import SimpleForm from './form/SimpleForm';
 // import State from './functional-components/state'
 // import Example2 from './functional-components/hooks/useEffect-Hook/Example2'
 
+import { Form } from "react-router-dom";
+
+// import ProductsPage from "./component-pages/ProductsPage";
+// import ProductCard from "./components/productCard";
+
 // import About from "./nested-routing/pages/About";
 // import Home from "./nested-routing/pages/Home";
 // import Service from './nested-routing/pages/Service';
 // import Design from './nested-routing/pages/services/Design';
 // import WebDev from './nested-routing/pages/services/WebDev';
 // import AppDev from './nested-routing/pages/services/AppDev';
-
-// import Contact from "./components/Contact";
-// import Footer from "./components/Footer";
-// import Hero from "./components/Hero";
-// import Navbar from "./components/Navbar";
 
 // import { Route, Routes } from "react-router-dom";
 // import Product from "./dynamic-routing/Product";
@@ -104,14 +105,9 @@ function App() {
     </Routes> */}
 
     {/* 3. -----nested routing----- */}
-
-    {/* <Navbar/>
-    <Hero/>
-    <Contact/>
-    <Footer/> */}
-    {/* <Navbar/>
-    <Home/>
-    <About/> */}
+    {/* <Navbar/> */}
+    {/* <Home/> */}
+    {/* <About/> */}
     {/* <Navbar/> 
     <div className='container-app'>
       <Routes>
@@ -130,7 +126,12 @@ function App() {
     {/* -------react keys------ */}
     {/* <Items/> */}
     {/* <RealWorld/> */}
-    <SimpleForm/>
+    {/* <SimpleForm/> */}
+    {/* <Work/> */}
+    <Form/>
+
+    {/* <ProductCard/> */}
+    {/* <ProductsPage/> */}
 
     </>
   );
