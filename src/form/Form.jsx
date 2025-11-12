@@ -108,7 +108,7 @@ const Form = () => {
                 {errors.gender && <p style={{ color: 'red' }}>{errors.gender}</p>}
             </div>
 
-            <button type='submit'>Submit</button>
+            <button type='submit'>{editMode ? 'Update User' : 'Add User'}</button>
 
         </form>
     )

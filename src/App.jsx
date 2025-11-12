@@ -28,7 +28,12 @@
 // import State from './functional-components/state'
 // import Example2 from './functional-components/hooks/useEffect-Hook/Example2'
 
-import Form from "./form/Form";
+import ProfileForm from "./form/ProfileForm";
+
+
+// import Crud from "./local-storage/Crud";
+
+// import Form from "./form/Form";
 
 
 
@@ -130,8 +135,9 @@ function App() {
     {/* <RealWorld/> */}
     {/* <SimpleForm/> */}
     {/* <Work/> */}
-    <Form/>
-
+    {/* <Form/> */}
+    {/* <Crud/> */}
+    <ProfileForm/>
     {/* <ProductCard/> */}
     {/* <ProductsPage/> */}
 
