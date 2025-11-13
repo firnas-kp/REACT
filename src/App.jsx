@@ -28,10 +28,10 @@
 // import State from './functional-components/state'
 // import Example2 from './functional-components/hooks/useEffect-Hook/Example2'
 
-import ProfileForm from "./form/ProfileForm";
+// import ProfileForm from "./form/ProfileForm";
 
 
-// import Crud from "./local-storage/Crud";
+import Crud from "./local-storage/Crud";
 
 // import Form from "./form/Form";
 
@@ -136,8 +136,8 @@ function App() {
     {/* <SimpleForm/> */}
     {/* <Work/> */}
     {/* <Form/> */}
-    {/* <Crud/> */}
-    <ProfileForm/>
+    <Crud/>
+    {/* <ProfileForm/> */}
     {/* <ProductCard/> */}
     {/* <ProductsPage/> */}
 
