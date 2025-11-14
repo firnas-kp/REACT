@@ -1,0 +1,25 @@
+.brands {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.brand-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.brand-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.brand-card:hover {
+  background: #d8f9df;
+}

@@ -1,6 +1,13 @@
 // import { RouterContextProvider } from 'react-router-dom';
 // import { Route, Routes } from 'react-router-dom';
-// import './App.css'
+// // import './App.css';
+// import Banner from './components/Banner';
+// import Brands from './components/Brands';
+// import Categories from './components/Categories';
+// import Deals from './components/Deals';
+// import Footer1 from './components/Footer1';
+// import Footer from './components/Footer1';
+// import Navbar1 from './components/Navbar1';
 // import Items from './react-keys/Items';
 // import SimpleForm from './form/SimpleForm';
 // import RealWorld from './react-keys/RealWorld';
@@ -31,7 +38,7 @@
 // import ProfileForm from "./form/ProfileForm";
 
 
-import Crud from "./local-storage/Crud";
+// import Crud from "./local-storage/Crud";
 
 // import Form from "./form/Form";
 
@@ -136,10 +143,19 @@ function App() {
     {/* <SimpleForm/> */}
     {/* <Work/> */}
     {/* <Form/> */}
-    <Crud/>
+    {/* <Crud/> */}
     {/* <ProfileForm/> */}
     {/* <ProductCard/> */}
     {/* <ProductsPage/> */}
+{/* 
+    <Navbar1/>
+    <Banner/>
+    <Categories/>
+    <Deals/>
+    <Brands/>
+    <Footer1/> */}
+
+
 
     </>
   );
