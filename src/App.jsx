@@ -1,12 +1,11 @@
 // import { RouterContextProvider } from 'react-router-dom';
 // import { Route, Routes } from 'react-router-dom';
-// // import './App.css';
+// import './App.css';
 // import Banner from './components/Banner';
 // import Brands from './components/Brands';
 // import Categories from './components/Categories';
 // import Deals from './components/Deals';
 // import Footer1 from './components/Footer1';
-// import Footer from './components/Footer1';
 // import Navbar1 from './components/Navbar1';
 // import Items from './react-keys/Items';
 // import SimpleForm from './form/SimpleForm';
@@ -34,6 +33,8 @@
 // import Props from './functional-components/Props'
 // import State from './functional-components/state'
 // import Example2 from './functional-components/hooks/useEffect-Hook/Example2'
+
+import TodoApp from "./ToDo/TodoApp";
 
 // import ProfileForm from "./form/ProfileForm";
 
@@ -147,14 +148,15 @@ function App() {
     {/* <ProfileForm/> */}
     {/* <ProductCard/> */}
     {/* <ProductsPage/> */}
-{/* 
-    <Navbar1/>
+
+    {/* <Navbar1/>
     <Banner/>
     <Categories/>
     <Deals/>
     <Brands/>
     <Footer1/> */}
 
+    <TodoApp/>
 
 
     </>
