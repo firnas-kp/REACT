@@ -34,7 +34,10 @@
 // import State from './functional-components/state'
 // import Example2 from './functional-components/hooks/useEffect-Hook/Example2'
 
-import TodoApp from "./ToDo/TodoApp";
+import AxiosPost from "./axios/AxiosPost";
+
+// import AxiosGet from "./axios/AxiosGet";
+// import TodoApp from "./ToDo/TodoApp";
 
 // import ProfileForm from "./form/ProfileForm";
 
@@ -156,9 +159,11 @@ function App() {
     <Brands/>
     <Footer1/> */}
 
-    <TodoApp/>
+    {/* <TodoApp/> */}
 
-
+    {/* ------------form------------ */}
+    {/* <AxiosGet/> */}
+    <AxiosPost/>
     </>
   );
 }
