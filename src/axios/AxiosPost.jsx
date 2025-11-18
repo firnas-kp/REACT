@@ -18,7 +18,6 @@ const AxiosPost = () => {
             console.log(res.data);
             setMessage("Form submitted succssfully")
 
-
         } catch (error) {
             console.error(error);
             setMessage("Error submitting user")
