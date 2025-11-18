@@ -39,7 +39,8 @@ function TodoApp() {
 
   const clearAllTasks = () => setTasks([]);
 
-  const taskCount = tasks.length;
+  const pendingTasks = tasks.filter(task => !task.completed);
+  const completedTasks = tasks.filter(task => task.completed);
 
   return (
     <div className="todo-container">
@@ -53,24 +54,48 @@ function TodoApp() {
         />
         <button onClick={addTask}>{editIndex !== null ? 'Update' : 'Add'}</button>
       </div>
-      <div className='task-actions'><span>Total Tasks:{taskCount}</span>
-      <button onClick={clearAllTasks} className='clear-btn'>Clear All</button></div>
-      <ul className="task-list">
-        {tasks.map((task, index) => (
-          <li
-            key={index}
-            className={task.completed ? 'task completed' : 'task'}
-          >
-            <span onClick={() => toggleComplete(index)}>
-              {task.text}
-            </span>
-            <div className="buttons">
-              <button onClick={() => editTask(index)}>Edit</button>
-              <button onClick={() => deleteTask(index)}>Delete</button>
-            </div>
-          </li>
-        ))}
-      </ul>
+      <div className='task-actions'>
+        <span>Total Tasks: {tasks.length}</span>
+        <button onClick={clearAllTasks} className='clear-btn'>Clear All</button>
+      </div>
+
+      <div className="tasks-section">
+        <h2>Pending Tasks ({pendingTasks.length})</h2>
+        <ul className="task-list">
+          {pendingTasks.map((task, index) => (
+            <li key={index} className="task">
+              <input
+                type="checkbox"
+                checked={task.completed}
+                onChange={() => toggleComplete(tasks.indexOf(task))}
+              />
+              <span>{task.text}</span>
+              <div className="buttons">
+                <button onClick={() => editTask(tasks.indexOf(task))}>Edit</button>
+                <button onClick={() => deleteTask(tasks.indexOf(task))}>Delete</button>
+              </div>
+            </li>
+          ))}
+        </ul>
+
+        <h2>Completed Tasks ({completedTasks.length})</h2>
+        <ul className="task-list completed">
+          {completedTasks.map((task, index) => (
+            <li key={index} className="task completed">
+              <input
+                type="checkbox"
+                checked={task.completed}
+                onChange={() => toggleComplete(tasks.indexOf(task))}
+              />
+              <span>{task.text}</span>
+              <div className="buttons">
+                <button onClick={() => editTask(tasks.indexOf(task))}>Edit</button>
+                <button onClick={() => deleteTask(tasks.indexOf(task))}>Delete</button>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }

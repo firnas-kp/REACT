@@ -45,5 +45,4 @@ const AxiosPost = () => {
         </div>
     )
 }
-
 export default AxiosPost
