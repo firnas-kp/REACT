@@ -34,7 +34,12 @@
 // import State from './functional-components/state'
 // import Example2 from './functional-components/hooks/useEffect-Hook/Example2'
 
-import Player from "./functional-components/hooks/useRef/Player";
+import ProductPage from "./designs/dynamic-routing-example/ProductPage";
+
+// import DeleteUser from "./axios/DeleteUser";
+// import UpdateUser from "./axios/UpdateUser";
+
+// import Player from "./functional-components/hooks/useRef/Player";
 
 // import AxiosPost from "./axios/AxiosPost";
 
@@ -166,8 +171,13 @@ function App() {
     {/* ------------form------------ */}
     {/* <AxiosGet/> */}
     {/* <AxiosPost/> */}
+    {/* <UpdateUser/> */}
+    {/* <DeleteUser/> */}
 
-    <Player/>
+    {/* <Player/> */}
+
+    {/* ----------dynamic routing real world example----------- */}
+    <ProductPage/>
     </>
   );
 }
