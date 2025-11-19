@@ -34,7 +34,8 @@
 // import State from './functional-components/state'
 // import Example2 from './functional-components/hooks/useEffect-Hook/Example2'
 
-import ProductPage from "./designs/dynamic-routing-example/ProductPage";
+// import ProductPage from "./designs/dynamic-routing-example/ProductPage";
+import Counter from "./functional-components/hooks/useReducer/Counter";
 
 // import DeleteUser from "./axios/DeleteUser";
 // import UpdateUser from "./axios/UpdateUser";
@@ -177,7 +178,8 @@ function App() {
     {/* <Player/> */}
 
     {/* ----------dynamic routing real world example----------- */}
-    <ProductPage/>
+    {/* <ProductPage/> */}
+    <Counter/>
     </>
   );
 }
