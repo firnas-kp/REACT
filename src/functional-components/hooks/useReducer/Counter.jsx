@@ -17,7 +17,6 @@ function reducer(state, action) {
       return state;
   }
 }
-
 export default function Counter() {
   const [state, dispatch] = useReducer(reducer, initialState);
 

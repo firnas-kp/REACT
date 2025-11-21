@@ -11,11 +11,11 @@ import heel3 from '../images/heel3.jpg'
 export const products =[
     {
         id:1,
-        Image:shoe,
+        image:shoe,
         title:"Men's Shoe DN 23x,New Product",
         category:"LIFESTYLE",
         price:4999,
-        rating:5,
+        rating:3,
         offer:20,
         description: "This is a high quality men's shoe perfect for every day use.",
         gallery: [shoe1, shoe2, shoe3]
@@ -23,11 +23,11 @@ export const products =[
     },
      {
         id:2,
-        Image:heel,
+        image:heel,
         title:"Women's Heel DN 23x,New Product",
         category:"LIFESTYLE",
         price:4599,
-        rating:4.5,
+        rating:4,
         offer:25,
         description: "Stylish Women's shoe designed for comfort and durability.",
         gallery: [heel1, heel2, heel3]

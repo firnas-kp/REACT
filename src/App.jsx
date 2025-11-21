@@ -34,8 +34,14 @@
 // import State from './functional-components/state'
 // import Example2 from './functional-components/hooks/useEffect-Hook/Example2'
 
+// import Parent from "./functional-components/hooks/UseCallBack/parent";
+import UseMemo from "./functional-components/hooks/UseMemo";
+
+// import { Route, Routes } from "react-router-dom";
 // import ProductPage from "./designs/dynamic-routing-example/ProductPage";
-import Counter from "./functional-components/hooks/useReducer/Counter";
+// import ProductDetails from "./designs/dynamic-routing-example/ProductDetails";
+// import Counter from "./functional-components/hooks/useReducer/Counter";
+// import UseLayoutEffect from "./functional-components/hooks/useEffect-Hook/useLayoutEffect";
 
 // import DeleteUser from "./axios/DeleteUser";
 // import UpdateUser from "./axios/UpdateUser";
@@ -179,7 +185,16 @@ function App() {
 
     {/* ----------dynamic routing real world example----------- */}
     {/* <ProductPage/> */}
-    <Counter/>
+    {/* <UseLayoutEffect/> */}
+  
+    {/* <Counter/> */}
+    {/* <Routes>
+      <Route path='/' element={<ProductPage/>}/>
+      <Route path="'/product/:id" element={<ProductDetails/>}/>
+    </Routes> */}
+    {/* <Parent/> */}
+    <UseMemo/>
+    
     </>
   );
 }
