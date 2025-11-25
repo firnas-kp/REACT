@@ -34,8 +34,10 @@
 // import State from './functional-components/state'
 // import Example2 from './functional-components/hooks/useEffect-Hook/Example2'
 
+import BasicHookForm from "./react-hook-form/BasicHookForm";
+
 // import Parent from "./functional-components/hooks/UseCallBack/parent";
-import UseMemo from "./functional-components/hooks/UseMemo";
+// import UseMemo from "./functional-components/hooks/UseMemo";
 
 // import { Route, Routes } from "react-router-dom";
 // import ProductPage from "./designs/dynamic-routing-example/ProductPage";
@@ -193,7 +195,10 @@ function App() {
       <Route path="'/product/:id" element={<ProductDetails/>}/>
     </Routes> */}
     {/* <Parent/> */}
-    <UseMemo/>
+    {/* <UseMemo/> */}
+
+    {/* -----react-hook-form----- */}
+    <BasicHookForm/>
     
     </>
   );
