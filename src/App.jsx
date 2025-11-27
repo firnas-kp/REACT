@@ -34,7 +34,10 @@
 // import State from './functional-components/state'
 // import Example2 from './functional-components/hooks/useEffect-Hook/Example2'
 
-import BasicHookForm from "./react-hook-form/BasicHookForm";
+import YupForm from "./form/yup-react-hook-form/YupForm";
+
+// import BasicHookForm from "./react-hook-form/BasicHookForm";
+// import BasicHoookFormWork from "./form/react-hook-form/BasicHoookFormWork";
 
 // import Parent from "./functional-components/hooks/UseCallBack/parent";
 // import UseMemo from "./functional-components/hooks/UseMemo";
@@ -198,7 +201,11 @@ function App() {
     {/* <UseMemo/> */}
 
     {/* -----react-hook-form----- */}
-    <BasicHookForm/>
+    {/* <BasicHookForm/> */}
+    {/* <BasicHoookFormWork/> */}
+
+    {/* -----yup with react hook form----- */}
+    <YupForm/>
     
     </>
   );
