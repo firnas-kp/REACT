@@ -32,8 +32,10 @@ const YupForm = () => {
             <input {...register("age")} placeholder='Age'/>
             <p>{errors.age?.message}</p>
 
+            <div>
             <button type='submit'>Submit</button>
             <button type='reset' onClick={() => reset}>Reset</button>
+            </div>
         </form>
     )
 }
