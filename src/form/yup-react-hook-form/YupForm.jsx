@@ -18,7 +18,6 @@ const YupForm = () => {
     const onSubmit =() => {
         console.log(data);
         reset();
-        
     }
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
@@ -39,5 +38,4 @@ const YupForm = () => {
         </form>
     )
 }
-
 export default YupForm

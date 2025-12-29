@@ -1,0 +1,26 @@
+its js library.
+user interface create cheyyaan vendi react use cheyyunnu.
+ithol virtual dom(document object model) use cheyyunnu.
+create cheyyunna files components enn parayunnu.
+.jsx enna extenson use cheyth cmpnt create cheyyunnu.
+single application create cheyyan react use chyunuu.
+reactne single page application aakii maatuunath react router.com enna package aan.
+faetures:-
+kurach code upayookich valiya page create cheyyaam.
+
+installation:-
+.npx create-react-application.
+.npm create @vitelatest my-react app.
+
+two type compnt:-
+1.functional cmpnt
+2.class cmpnt.
+
+--> LinkComp:-a tagn pakaram use cheyyna tag,ith import cheyyanam.(navigate cheyyaan use cheyyunnu)
+UseNavigate:- oru function form cheytha sheesham veere pagileek poovanel enn undel use cheyyunaath aaan ith.
+usage:-
+first declare varible-->athileek UseNavigate hoookine eduth vekkuka-->ennitt poovenda path kodukkaka.
+
+Lifecycle methods:-
+mounting
+unmounting

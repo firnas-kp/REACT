@@ -34,7 +34,10 @@
 // import State from './functional-components/state'
 // import Example2 from './functional-components/hooks/useEffect-Hook/Example2'
 
-import YupForm from "./form/yup-react-hook-form/YupForm";
+// import Just from "./Just";
+import ChangeColor from "./ChangeColor"
+
+// import YupForm from "./form/yup-react-hook-form/YupForm";
 
 // import BasicHookForm from "./react-hook-form/BasicHookForm";
 // import BasicHoookFormWork from "./form/react-hook-form/BasicHoookFormWork";
@@ -205,7 +208,9 @@ function App() {
     {/* <BasicHoookFormWork/> */}
 
     {/* -----yup with react hook form----- */}
-    <YupForm/>
+    {/* <YupForm/> */}
+    {/* <Just/> */}
+    <ChangeColor/>
     
     </>
   );
