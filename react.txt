@@ -24,3 +24,5 @@ first declare varible-->athileek UseNavigate hoookine eduth vekkuka-->ennitt poo
 Lifecycle methods:-
 mounting
 unmounting
+
+.useEffect:-react side effect maintain cheyyaan vendi use cheyunnu.eg:-(dom) 

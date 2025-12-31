@@ -13,6 +13,5 @@ const ChangeColor = () => {
             <button onClick={changeColor}>ChangeColor</button>
         </div>
     )
-
 }
 export default ChangeColor;

@@ -34,8 +34,13 @@
 // import State from './functional-components/state'
 // import Example2 from './functional-components/hooks/useEffect-Hook/Example2'
 
+import UseEffectApi from "./useEffectApi";
+
+
 // import Just from "./Just";
-import ChangeColor from "./ChangeColor"
+// import ChangeColor from "./ChangeColor"
+// import Counter from "./Counter";
+// import LikeBox from "./LikeBox";
 
 // import YupForm from "./form/yup-react-hook-form/YupForm";
 
@@ -210,8 +215,10 @@ function App() {
     {/* -----yup with react hook form----- */}
     {/* <YupForm/> */}
     {/* <Just/> */}
-    <ChangeColor/>
-    
+    {/* <ChangeColor/> */}
+    {/* <LikeBox/> */}
+    {/* <Counter/> */}
+    <UseEffectApi/>
     </>
   );
 }
